@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta name="author" content="Ante Hellgren">
+        <meta name="description" content="Tentamen 1 HTML">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>tentamen1_html_ant_hel</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Ante Hellgren</h1>
+            <nav>
+                <a class="navlinks" href="https://github.com">Github</a>
+                <a class="navlinks" href="https://git-scm.com/docs">Git</a>
+                <a class="navlinks" href="https://www.w3schools.com/">w3schools</a>
+            </nav>
+            <ol>
+                <li>Jane</li>
+                <li>John</li>
+                <li>Karen</li>
+                <li>Karl</li>
+                <li>Betty</li>
+                <li>Bart</li>
+            </ol>
+            <div id="funny-element">
+
+            </div>
+            <div id="team-table">
+                <table>
+                    <tr>
+                        <th>Position</th>
+                        <th>Lag</th>
+                        <th>Poäng</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jägersborg</td>
+                        <td>67p</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Malmö</td>
+                        <td>24p</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Hammarby</td>
+                        <td>22p</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="container">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+                <img class="catpics" alt="cat" title="catpic" src="http://placekitten.com/300/200">
+            </div>
+            <h2>SEO</h2>
+            <ol>
+                <li>Semantiskt korrekt HTML</li>
+                <li>Korta, beskrivande URLer och titlar</li>
+                <li>Använda mellan 1000 och 2500 ord som beskriver ämnet på sidan</li>
+                <li>Uppdelade texter med rubriker </li>
+                <li>Ett par relevanta bilder med titel och alt text</li>
+                <li>Se till att det finns länkar till alla sidor av webbplatsen, gärna även externa länkar</li>
+            </ol>
+            <h2>SEO och nyckelord</h2>
+            <p>
+                Titlar och URLer är de viktigaste ställena att ha sina nyckelord på. 
+                Som sökare kollar man oftast på dessa två vid en sökning på t.ex Google.
+                När man väljer nyckelord bör man försöka vara så specifik och unik som möjligt,
+                eftersom de vanligaste orden redan används och konkurrensen är stenhård. 
+                Om man t.ex säljer skor så räcker det kanske inte att bara skriva skor, 
+                utan då hellre ta med kanske "Skor Växjö", eller "Converse Växjö", allt
+                för att hitta de ord man har chans att konkurrera om.
+            </p>
+            <h2>Responiv webbdesign</h2>
+            <p>
+                Innebär att sidan är utvecklad för att bete sig på olika sätt beroende på
+                vilken enhet eller fönsterstorlek besökaren använder. Detta är viktigt för 
+                att webbplatsen ska fungera korrekt och se bra ut oavsett enhet, vilket kan
+                vara avgörande i många fall där man kanske vill sälja något och man vill att 
+                kunden ska få en bra upplevelse i såväl statitionär dator som i en iPhone.
+                Två sätt att göra sin sida responiv, 1) Använd relativa måttenheter som t.ex 
+                procent(%), webbläsarfönstrets bredd/höjd(vw/vh). 2) Använda MediaQuerys, som 
+                gör att man kan sätta upp "regler" eller instruktioner för när webbläsarfönstret 
+                har en viss storlek, så ändras vissa grejer, som att t.ex bilder som normal ligger på
+                en rad, istället lägger sig på hög när webbläsarfönstret är av telefonstorlek. Detta 
+                kallas även brytpunkter.
+            </p>
+            <h2>Nätverk</h2>
+            <p>
+                När man skriver in en adress i sökfältet och trycker på enter så skickas en förfrågan ut 
+                från din dator, vanligtvis först till en router eller switch och sedan vidare till 
+                bredbandsleverantören som i sin tur kontrollerar om adressen finns tillgänglig och i så fall
+                 dirigerar vidare förfrågan fram till webbplatsens server. Servern svarar sedan om allt ser bra ut 
+                 med att skicka tillbaka det innehåll som efterfrågades (koden på webbsidan t.ex) och resultatet blir 
+                 oftast att webbsidan visas i vår webbläsare. Hittas sidan inte så får vi oftast ett fel (404) att sidan 
+                 inte kunde hittas.
+            </p>
+            <h2>Bootstrap</h2>
+            <p>
+                Är som ett bibliotek kan man säga, med kod som man får låna och använda som ett antal personer 
+                har tagit fram för att  underlätta styling för webbplatser. Det används just för att det underlättar mycket, 
+                att man slipper skriva om samma kod gång på gång. Det behövs dessutom inga plugins eller addons eftersom 
+                allt är skrivet helt och hållet i vanlig css kod.
+                Det finns två sätt att lägga in/implementera bootstrap i sitt projekt. Det första funkar genom att man 
+                laddar ned css filer med bootstraps kod och länkar till det i sin html. Det andra sättet behöver man inte 
+                ladda ned något för att använda, utan då länkar man i sin html direkt till bootstraps online-css-länk som finns 
+                tillgänglig på deras webbplats. Detta kräver förstås att man har tillgång till internet, vilket det andra alternativet 
+                inte gör.
+            </p>
+            <h2>Granska koden</h2>
+            <p>
+                Html-taggar fattas. backgroundColor är syntaxfel, borde bara background:, eller background-color:. 
+                Ingen p-tagg används så det är helt onödigt att styla den.
+                Fattas type="text/css" i css länken. Diven med class=nav hade kunnat vara bara en nav-tagg för semantik. List-itemsen 
+                ligger inte i någon lista, måste finnas en ol eller ul tagg före och efter. Section är felindenterat och ser rörigt ut.
+                Den har heller ingen slut-tagg, alltså den är inte stängd. Texten som ligger i divarna hade kunnat ligga i p-taggar för bättre ordning.
+                Bildlänken har inga citationstecken, "" och heller ingen alt eller title egenskap, vilket man borde ha av bland annat SEO-skäl. 
+                Div stylen har heller inga citationstecken, den kunde även legat i css filen för bättre kontroll och ordning.
+                Form taggen har method, men ingen action, vilket man måste ha. Input taggen har inget name, så informationen som skrivs in där 
+                kan inte tolkas eller tas emot av en server. Diven med class="footer" hade kunnat vara bara en vanlig footer-tag istället för en div
+                Texten i de sista två divarna hade kunnat ha någon h-tagg eller p-tagg för bättre kontroll och struktur.
+                Den sista body taggen borde vara en stängande tagg och inte ännu en öppnande.
+            </p>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

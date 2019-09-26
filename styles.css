@@ -1,0 +1,36 @@
+h1 {
+    font-size: 3em;
+    color: #0000ff;
+    font-style: Arial, Helvetica, sans-serif;
+}
+nav {
+    width: 100vw;
+    height: 30px;
+    background-color: red;
+}
+.navlinks {
+    margin: 10px;
+}
+#team-table {
+    background-color: lightgrey;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+#funny-element {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    top: 1800px;
+    right: 0;
+}
+.catpics {
+    margin: 10px;
+    border: 1px solid red;
+}
+#container {
+    width: 644px;
+    display: flex;
+    flex-wrap: wrap;
+}
